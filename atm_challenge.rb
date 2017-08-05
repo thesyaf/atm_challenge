@@ -29,13 +29,13 @@ def balances(ret)
 end
 
 def retran
-  puts "Did you want to do another transaction?"
+  puts "\nWould you like to do another transaction?\n(y) to go back to menu\n(n) to quit"
   well = gets.chomp.to_s.downcase
   case well
     when "y"
       menu
     when "n"
-      puts "====Thank you for banking with MVP====\n"
+      puts "====Thank you for banking with MVP===="
   end
 end
 
